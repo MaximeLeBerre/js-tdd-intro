@@ -5,15 +5,15 @@ class Rectangle {
   }
 
   isSquare() {
-
+    return this.a === this.b ? true : false
   }
 
   getArea() {
-
+    return this.a * this.b
   }
 
   getPerimeter() {
-
+    return (this.a + this.b)*2
   }
 }
 
