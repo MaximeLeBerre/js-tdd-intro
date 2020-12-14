@@ -1,5 +1,5 @@
 const Rectangle = require('../Rectangle');
-const rectangle = new Rectangle(13, 7);
+const rectangle = new Rectangle(10, 7);
 
 describe('isSquare', () => {
   it('check if square got same border', () => {
