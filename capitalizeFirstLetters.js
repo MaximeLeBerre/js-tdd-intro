@@ -10,16 +10,4 @@ function capitalizeFirstLetters(input){
 
 
 
-
-const assert = require('assert');
-
-assert.strictEqual(typeof capitalizeFirstLetters, 'function');
-
-
-assert.strictEqual(capitalizeFirstLetters('premier test tdd'), 'Premier Test Tdd');
-
-assert.strictEqual(capitalizeFirstLetters(''), '');
-
-assert.strictEqual(capitalizeFirstLetters('javascript'), 'Javascript');
-
-
+module.exports = capitalizeFirstLetters;
